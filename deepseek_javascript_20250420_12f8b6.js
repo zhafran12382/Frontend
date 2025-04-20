@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const socket = io(); // Connect to Socket.IO server
+  const socket = io(https://group-chat-backend.onrender.com); // Connect to Socket.IO server
   const chatMessages = document.getElementById('chat-messages');
   const messageInput = document.getElementById('message-input');
   const sendBtn = document.getElementById('send-btn');
